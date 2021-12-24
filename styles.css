@@ -1,0 +1,33 @@
+.title {
+    text-align: center;
+    margin-bottom: 0.2em;
+  }
+
+.socials {
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+body {
+  line-height: 1.6;
+  font-size: 18px;
+  padding: 0 10px;
+  margin: 60px auto;
+  max-width: 700px;
+}
+
+a:link,
+a:visited {
+  color: blue;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: small;
+  text-align: center;
+}
