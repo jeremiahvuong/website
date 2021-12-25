@@ -18,7 +18,7 @@
   margin-top: 0;
 }
 
-body {
+.lfmp {
   line-height: 1.6;
   font-size: 18px;
   padding: 0 10px;
@@ -31,26 +31,21 @@ a:visited {
   color: blue;
 }
 
-
+#footer {
+  position: fixed;
+  height: 50px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+}
 
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-size: small;
-  text-align: center;
-}
-
-.twintail-guya {
-  float: right;
-  height: 75px;
-  width: 56px;
-}
-
-.twintail-guya:hover {
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
 }
 
 .footer:link,
@@ -58,6 +53,21 @@ a:visited {
   text-decoration: none;
   color:black
 }
+
 .footer:hover {
   color:blue
 }
+
+#twintail-guya {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  height: 75px;
+  width: 56px;
+}
+
+#twintail-guya:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
