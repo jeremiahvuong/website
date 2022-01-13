@@ -31,7 +31,7 @@ a:visited {
   color: blue;
 }
 
-#footer {
+#footer-container {
   position: fixed;
   height: 50px;
   bottom: 0px;
@@ -40,7 +40,7 @@ a:visited {
   margin-bottom: 0px;
 }
 
-.footer {
+#footer {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -48,13 +48,13 @@ a:visited {
   font-size: small;
 }
 
-.footer:link,
-.footer:visited {
+#footer:link,
+#footer:visited {
   text-decoration: none;
   color:black
 }
 
-.footer:hover {
+#footer:hover {
   color:blue
 }
 
