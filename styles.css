@@ -1,7 +1,7 @@
 .title {
-    text-align: center;
-    margin-bottom: 0.2em;
-  }
+  text-align: center;
+  margin-bottom: 0.2em;
+}
 
 .subtitle {
   margin-top: 1.5em;
@@ -24,6 +24,10 @@
   padding: 0 10px;
   margin: 60px auto;
   max-width: 700px;
+}
+
+p {
+  text-align: center;
 }
 
 a:link,
@@ -51,11 +55,11 @@ a:visited {
 #footer:link,
 #footer:visited {
   text-decoration: none;
-  color:black
+  color: black;
 }
 
 #footer:hover {
-  color:blue
+  color: blue;
 }
 
 #twintail-guya {
@@ -70,4 +74,3 @@ a:visited {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
-
